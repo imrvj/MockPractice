@@ -62,7 +62,7 @@ public class A_Basic {
 				statusCode(200).
 			extract().
 				header("Content-Type");
-		
+		//Added a line here
 		System.out.println("testResponseHeaders: "+contentType);
 		Assert.assertEquals("text/plain", contentType);	
 	}
